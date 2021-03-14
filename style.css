@@ -62,6 +62,7 @@ nav ul li a:hover{
     flex-basis: 40%;
     position: relative;
     margin-left: 50px;
+    position: relative;
 }
 
 .col-1 h2{
@@ -113,4 +114,16 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.col-1::after{
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(#fb5283,  #ff3527);
+    border-radius: 5px;
+    
 }
