@@ -166,3 +166,21 @@ button:hover{
     width: 35px;
     margin-bottom: 5px;
 }
+
+
+.social-links{
+    text-align: center;
+}
+
+.social-links img{
+    margin: 50px 0 0 30px;
+    height: 13px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.social-links img:hover{
+    transform: translateY( -5px);
+}
+
+
