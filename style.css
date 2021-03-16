@@ -28,6 +28,7 @@
 .menu-icon{
     width: 25px;
     cursor: pointer;
+    display: none;
 }
 
 nav{
@@ -60,7 +61,6 @@ nav ul li a:hover{
 
 .col-1{
     flex-basis: 40%;
-    position: relative;
     margin-left: 50px;
     position: relative;
 }
@@ -183,4 +183,43 @@ button:hover{
     transform: translateY( -5px);
 }
 
+
+
+/*Start Media Query*/
+
+@media only screen and (max-width: 700px){
+
+    .col-1{
+        margin-top: 100px;
+    }
+
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#ff54a2, #ff575a);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 1;
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 5px;
+        margin-bottom:5px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .social-links{
+        margin-bottom: 10px;
+    }
+}
+
+/*End Media Query*/
 
