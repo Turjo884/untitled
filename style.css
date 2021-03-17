@@ -189,10 +189,20 @@ button:hover{
 
 @media only screen and (max-width: 700px){
 
+
+    .row{
+        flex-direction: column;
+    }
     .col-1{
         margin-top: 100px;
+        margin-bottom: 50px;
     }
 
+
+    .col-2 .color-box{
+        transform: translateX(100px)
+    }
+    
     nav ul{
         width: 100%;
         background: linear-gradient(#ff54a2, #ff575a);
@@ -210,6 +220,7 @@ button:hover{
 
     nav ul li a{
         color: #fff;
+        
     }
 
     .menu-icon{
