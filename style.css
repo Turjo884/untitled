@@ -194,15 +194,30 @@ button:hover{
         flex-direction: column;
     }
     .col-1{
-        margin-top: 100px;
+        margin-top: 80px;
         margin-bottom: 50px;
     }
 
+    .col-1 h2{
+        font-size: 30px;
+    }
+
+    .col-1 h3{
+        font-size: 25px;
+    }
+
+    .col-1 p{
+        font-size: 15px;
+    }
+
+    .col-1 h4{
+        font-size: 20px;
+    }
 
     .col-2 .color-box{
-        transform: translateX(100px)
+        transform: translateX(100px);
     }
-    
+
     nav ul{
         width: 100%;
         background: linear-gradient(#ff54a2, #ff575a);
@@ -220,7 +235,6 @@ button:hover{
 
     nav ul li a{
         color: #fff;
-        
     }
 
     .menu-icon{
@@ -229,6 +243,11 @@ button:hover{
 
     .social-links{
         margin-bottom: 10px;
+    }
+
+
+    #menuList{
+        transition: .5s ease;
     }
 }
 
