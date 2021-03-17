@@ -179,9 +179,6 @@ button:hover{
     transition: .5s ease;
 }
 
-.social-links img:hover{
-    transform: translateY( -5px);
-}
 
 
 
